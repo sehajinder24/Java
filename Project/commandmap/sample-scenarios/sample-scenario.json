@@ -1,0 +1,416 @@
+{
+  "scenarioId": "scenario-001",
+  "scenarioName": "Operation Iron Ford",
+  "description": "Two armies contest the river crossing at Ford City while the Free Cities watch.",
+  "mapTemplate": "terrain-map-01",
+  "teams": [
+    {
+      "teamId": "team-a",
+      "name": "Northern Alliance",
+      "color": "#3b82f6",
+      "description": "Defending coalition holding the western bank."
+    },
+    {
+      "teamId": "team-b",
+      "name": "Eastern Republic",
+      "color": "#ef4444",
+      "description": "Attacking force massing on the eastern bank."
+    },
+    {
+      "teamId": "team-c",
+      "name": "Free Cities",
+      "color": "#a8a29e",
+      "description": "Neutral city militias that have declared no side."
+    }
+  ],
+  "units": [
+    {
+      "unitId": "unit-a1",
+      "name": "1st Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "1 Inf",
+      "teamId": "team-a",
+      "color": null,
+      "parentFormationId": "form-a-corps",
+      "x": 520,
+      "y": 640,
+      "influenceRadius": 170,
+      "description": "Holds the western approach to the ford."
+    },
+    {
+      "unitId": "unit-a2",
+      "name": "2nd Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "2 Inf",
+      "teamId": "team-a",
+      "color": null,
+      "parentFormationId": "form-a-army",
+      "x": 620,
+      "y": 880,
+      "influenceRadius": 160,
+      "description": ""
+    },
+    {
+      "unitId": "unit-a3",
+      "name": "3rd Cavalry Division",
+      "unitType": "CAVALRY",
+      "designation": "3 Cav",
+      "teamId": "team-a",
+      "color": null,
+      "parentFormationId": "form-a-corps",
+      "x": 700,
+      "y": 470,
+      "influenceRadius": 150,
+      "description": "Screens the northern flank."
+    },
+    {
+      "unitId": "unit-a4",
+      "name": "1st Armoured Division",
+      "unitType": "ARMOURED",
+      "designation": "1 Arm",
+      "teamId": "team-a",
+      "color": null,
+      "parentFormationId": "form-a-corps",
+      "x": 760,
+      "y": 700,
+      "influenceRadius": 230,
+      "description": "Counter-attack reserve."
+    },
+    {
+      "unitId": "unit-a5",
+      "name": "1st Artillery Division",
+      "unitType": "ARTILLERY",
+      "designation": "1 Art",
+      "teamId": "team-a",
+      "color": null,
+      "parentFormationId": "form-a-army",
+      "x": 430,
+      "y": 760,
+      "influenceRadius": 140,
+      "description": ""
+    },
+    {
+      "unitId": "unit-b1",
+      "name": "5th Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "5 Inf",
+      "teamId": "team-b",
+      "color": null,
+      "parentFormationId": "form-b-corps",
+      "x": 1350,
+      "y": 650,
+      "influenceRadius": 170,
+      "description": ""
+    },
+    {
+      "unitId": "unit-b2",
+      "name": "6th Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "6 Inf",
+      "teamId": "team-b",
+      "color": null,
+      "parentFormationId": "form-b-army",
+      "x": 1450,
+      "y": 880,
+      "influenceRadius": 160,
+      "description": ""
+    },
+    {
+      "unitId": "unit-b3",
+      "name": "2nd Cavalry Division",
+      "unitType": "CAVALRY",
+      "designation": "2 Cav",
+      "teamId": "team-b",
+      "color": null,
+      "parentFormationId": "form-b-corps",
+      "x": 1260,
+      "y": 470,
+      "influenceRadius": 150,
+      "description": ""
+    },
+    {
+      "unitId": "unit-b4",
+      "name": "4th Armoured Division",
+      "unitType": "ARMOURED",
+      "designation": "4 Arm",
+      "teamId": "team-b",
+      "color": null,
+      "parentFormationId": "form-b-corps",
+      "x": 1180,
+      "y": 720,
+      "influenceRadius": 230,
+      "description": "Spearhead of the river crossing."
+    },
+    {
+      "unitId": "unit-b5",
+      "name": "3rd Artillery Division",
+      "unitType": "ARTILLERY",
+      "designation": "3 Art",
+      "teamId": "team-b",
+      "color": null,
+      "parentFormationId": "form-b-army",
+      "x": 1550,
+      "y": 740,
+      "influenceRadius": 140,
+      "description": ""
+    },
+    {
+      "unitId": "unit-c1",
+      "name": "Southport Militia",
+      "unitType": "INFANTRY",
+      "designation": "SP Mil",
+      "teamId": "team-c",
+      "color": null,
+      "parentFormationId": null,
+      "x": 980,
+      "y": 1180,
+      "influenceRadius": 130,
+      "description": "City guard of Southport."
+    }
+  ],
+  "formations": [
+    {
+      "formationId": "form-a-theatre",
+      "name": "Northern Theatre HQ",
+      "formationType": "THEATRE_HQ",
+      "teamId": "team-a",
+      "parentFormationId": null,
+      "description": "Overall command of the Alliance forces.",
+      "x": 360,
+      "y": 330
+    },
+    {
+      "formationId": "form-a-group",
+      "name": "1st Army Group HQ",
+      "formationType": "ARMY_GROUP_HQ",
+      "teamId": "team-a",
+      "parentFormationId": "form-a-theatre",
+      "description": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "formationId": "form-a-army",
+      "name": "1st Army HQ",
+      "formationType": "ARMY_HQ",
+      "teamId": "team-a",
+      "parentFormationId": "form-a-group",
+      "description": "",
+      "x": 470,
+      "y": 590
+    },
+    {
+      "formationId": "form-a-corps",
+      "name": "I Corps HQ",
+      "formationType": "CORPS_HQ",
+      "teamId": "team-a",
+      "parentFormationId": "form-a-army",
+      "description": "",
+      "x": null,
+      "y": null
+    },
+    {
+      "formationId": "form-b-theatre",
+      "name": "Eastern Theatre HQ",
+      "formationType": "THEATRE_HQ",
+      "teamId": "team-b",
+      "parentFormationId": null,
+      "description": "Overall command of the Republic forces.",
+      "x": 1680,
+      "y": 380
+    },
+    {
+      "formationId": "form-b-army",
+      "name": "5th Army HQ",
+      "formationType": "ARMY_HQ",
+      "teamId": "team-b",
+      "parentFormationId": "form-b-theatre",
+      "description": "",
+      "x": 1500,
+      "y": 560
+    },
+    {
+      "formationId": "form-b-corps",
+      "name": "III Corps HQ",
+      "formationType": "CORPS_HQ",
+      "teamId": "team-b",
+      "parentFormationId": "form-b-army",
+      "description": "",
+      "x": null,
+      "y": null
+    }
+  ],
+  "territories": [
+    {
+      "territoryId": "terr-1",
+      "name": "Ford Bridgehead",
+      "teamId": "team-b",
+      "shapeType": "POLYGON",
+      "points": [
+        {
+          "x": 900,
+          "y": 640
+        },
+        {
+          "x": 1030,
+          "y": 620
+        },
+        {
+          "x": 1050,
+          "y": 790
+        },
+        {
+          "x": 915,
+          "y": 810
+        }
+      ],
+      "center": null,
+      "radius": null,
+      "fillColor": "#ef4444",
+      "opacity": 0.55,
+      "layerPriority": 1
+    },
+    {
+      "territoryId": "terr-2",
+      "name": "Southport Free Zone",
+      "teamId": "team-c",
+      "shapeType": "CIRCLE",
+      "points": [],
+      "center": {
+        "x": 980,
+        "y": 1180
+      },
+      "radius": 115,
+      "fillColor": "#a8a29e",
+      "opacity": 0.5,
+      "layerPriority": 0
+    }
+  ],
+  "drawings": [
+    {
+      "drawingId": "draw-1",
+      "drawingType": "ARROW",
+      "points": [
+        {
+          "x": 820,
+          "y": 700
+        },
+        {
+          "x": 930,
+          "y": 700
+        }
+      ],
+      "color": "#93c5fd",
+      "strokeWidth": 6,
+      "text": null,
+      "description": "Alliance counter-attack towards the ford"
+    },
+    {
+      "drawingId": "draw-2",
+      "drawingType": "ARROW",
+      "points": [
+        {
+          "x": 1100,
+          "y": 720
+        },
+        {
+          "x": 990,
+          "y": 720
+        }
+      ],
+      "color": "#fca5a5",
+      "strokeWidth": 6,
+      "text": null,
+      "description": "Republic crossing attempt"
+    },
+    {
+      "drawingId": "draw-3",
+      "drawingType": "DEFENCE_LINE",
+      "points": [
+        {
+          "x": 1150,
+          "y": 440
+        },
+        {
+          "x": 1170,
+          "y": 600
+        },
+        {
+          "x": 1130,
+          "y": 840
+        },
+        {
+          "x": 1160,
+          "y": 960
+        }
+      ],
+      "color": "#ef4444",
+      "strokeWidth": 4,
+      "text": null,
+      "description": "Republic forward defence line"
+    },
+    {
+      "drawingId": "draw-4",
+      "drawingType": "BOUNDARY",
+      "points": [
+        {
+          "x": 960,
+          "y": 160
+        },
+        {
+          "x": 940,
+          "y": 400
+        },
+        {
+          "x": 990,
+          "y": 640
+        },
+        {
+          "x": 930,
+          "y": 900
+        },
+        {
+          "x": 1010,
+          "y": 1150
+        }
+      ],
+      "color": "#f5f5f4",
+      "strokeWidth": 3,
+      "text": null,
+      "description": "Agreed boundary along the river"
+    },
+    {
+      "drawingId": "draw-5",
+      "drawingType": "TEXT",
+      "points": [
+        {
+          "x": 960,
+          "y": 590
+        }
+      ],
+      "color": "#ffffff",
+      "strokeWidth": null,
+      "text": "Ford City",
+      "description": ""
+    },
+    {
+      "drawingId": "draw-6",
+      "drawingType": "TEXT",
+      "points": [
+        {
+          "x": 980,
+          "y": 1060
+        }
+      ],
+      "color": "#ffffff",
+      "strokeWidth": null,
+      "text": "Southport",
+      "description": ""
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "createdAt": "2026-11-11T09:00:00Z",
+    "lastModified": "2026-11-11T09:00:00Z"
+  }
+}

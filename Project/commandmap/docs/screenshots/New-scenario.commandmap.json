@@ -1,0 +1,179 @@
+{
+  "scenarioId": "scenario-ku1l011gcj",
+  "scenarioName": "New scenario",
+  "description": "",
+  "mapTemplate": "terrain-map-02",
+  "teams": [
+    {
+      "teamId": "team-ku1lynnmlb",
+      "name": "Team A",
+      "color": "#3b82f6",
+      "description": "Blue team"
+    },
+    {
+      "teamId": "team-ku1lu944qr",
+      "name": "Team B",
+      "color": "#ef4444",
+      "description": "Red team"
+    },
+    {
+      "teamId": "team-ku1l5yspp5",
+      "name": "Team C",
+      "color": "#a8a29e",
+      "description": "Neutral team"
+    }
+  ],
+  "units": [
+    {
+      "unitId": "unit-p1k3l895r4",
+      "name": "1st Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "1 Inf",
+      "teamId": "team-ku1lynnmlb",
+      "color": null,
+      "parentFormationId": null,
+      "x": 842.14,
+      "y": 542.76,
+      "influenceRadius": 150,
+      "description": ""
+    },
+    {
+      "unitId": "unit-p23jsbw9gc",
+      "name": "2nd Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "2 Inf",
+      "teamId": "team-ku1lynnmlb",
+      "color": null,
+      "parentFormationId": null,
+      "x": 1027.62,
+      "y": 617.79,
+      "influenceRadius": 150,
+      "description": ""
+    },
+    {
+      "unitId": "unit-p2t3mfj5xj",
+      "name": "3rd Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "3 Inf",
+      "teamId": "team-ku1lynnmlb",
+      "color": null,
+      "parentFormationId": null,
+      "x": 978.91,
+      "y": 988.66,
+      "influenceRadius": 150,
+      "description": ""
+    },
+    {
+      "unitId": "unit-p3jymdj16l",
+      "name": "4th Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "4 Inf",
+      "teamId": "team-ku1lynnmlb",
+      "color": null,
+      "parentFormationId": null,
+      "x": 950.62,
+      "y": 833.08,
+      "influenceRadius": 150,
+      "description": ""
+    },
+    {
+      "unitId": "unit-pcm86rmnfy",
+      "name": "1st Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "1 Inf",
+      "teamId": "team-ku1l5yspp5",
+      "color": null,
+      "parentFormationId": null,
+      "x": 1052.43,
+      "y": 797.58,
+      "influenceRadius": 150,
+      "description": ""
+    },
+    {
+      "unitId": "unit-pdqngye12w",
+      "name": "1st Cavalry Division",
+      "unitType": "CAVALRY",
+      "designation": "1 Cav",
+      "teamId": "team-ku1l5yspp5",
+      "color": null,
+      "parentFormationId": null,
+      "x": 1108.93,
+      "y": 617.89,
+      "influenceRadius": 170,
+      "description": ""
+    },
+    {
+      "unitId": "unit-peqmpobby9",
+      "name": "2nd Cavalry Division",
+      "unitType": "CAVALRY",
+      "designation": "2 Cav",
+      "teamId": "team-ku1l5yspp5",
+      "color": null,
+      "parentFormationId": null,
+      "x": 1198.85,
+      "y": 1174.34,
+      "influenceRadius": 170,
+      "description": ""
+    },
+    {
+      "unitId": "unit-pgb8itjhse",
+      "name": "1st Armoured Division",
+      "unitType": "ARMOURED",
+      "designation": "1 Arm",
+      "teamId": "team-ku1l5yspp5",
+      "color": null,
+      "parentFormationId": null,
+      "x": 1223.34,
+      "y": 902.23,
+      "influenceRadius": 200,
+      "description": ""
+    },
+    {
+      "unitId": "unit-pv2tiqp97v",
+      "name": "2nd Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "2 Inf",
+      "teamId": "team-ku1l5yspp5",
+      "color": null,
+      "parentFormationId": null,
+      "x": 936.85,
+      "y": 1271.26,
+      "influenceRadius": 150,
+      "description": ""
+    },
+    {
+      "unitId": "unit-pwr8zmvssl",
+      "name": "3rd Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "3 Inf",
+      "teamId": "team-ku1l5yspp5",
+      "color": null,
+      "parentFormationId": null,
+      "x": 965.14,
+      "y": 386.45,
+      "influenceRadius": 150,
+      "description": ""
+    },
+    {
+      "unitId": "unit-pz6retgq2l",
+      "name": "1st Artillery Division",
+      "unitType": "ARTILLERY",
+      "designation": "1 Art",
+      "teamId": "team-ku1l5yspp5",
+      "color": null,
+      "parentFormationId": null,
+      "x": 1261.97,
+      "y": 693.93,
+      "influenceRadius": 130,
+      "description": ""
+    }
+  ],
+  "formations": [],
+  "territories": [],
+  "drawings": [],
+  "metadata": {
+    "version": "1.0",
+    "createdAt": "2026-11-13T18:10:05.721Z",
+    "lastModified": "2026-11-13T18:14:05.667Z"
+  }
+}

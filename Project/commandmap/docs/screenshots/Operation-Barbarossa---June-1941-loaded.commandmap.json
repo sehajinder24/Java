@@ -1,0 +1,592 @@
+{
+  "scenarioId": "scenario-vk4e6cc12l",
+  "scenarioName": "Operation Barbarossa - June 1941 (loaded)",
+  "description": "Eastern Front, 22 June 1941. German Army Groups North, Centre and South launch the invasion of the Soviet Union. Soviet Northwestern, Western and Southwestern Fronts defend the western approaches. Historical formations are represented at an operational overview scale.",
+  "mapTemplate": "terrain-map-01",
+  "teams": [
+    {
+      "teamId": "germany",
+      "name": "German Reich",
+      "color": "#3b82f6",
+      "description": "Wehrmacht forces operating on the Eastern Front."
+    },
+    {
+      "teamId": "soviet",
+      "name": "Soviet Union",
+      "color": "#ef4444",
+      "description": "Red Army forces defending the western Soviet Union."
+    },
+    {
+      "teamId": "neutral",
+      "name": "Neutral Countries",
+      "color": "#a8a29e",
+      "description": "Countries outside the two opposing military blocs in this scenario."
+    }
+  ],
+  "units": [
+    {
+      "unitId": "ger-18-inf",
+      "name": "18th Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "18 Inf",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-north-corps",
+      "x": 806.23,
+      "y": 209.19,
+      "influenceRadius": 150,
+      "description": "German infantry formation, Army Group North."
+    },
+    {
+      "unitId": "ger-1-panzer",
+      "name": "1st Panzer Division",
+      "unitType": "ARMOURED",
+      "designation": "1 Pz",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-north-corps",
+      "x": 895.64,
+      "y": 290.78,
+      "influenceRadius": 200,
+      "description": "Panzer formation operating in the northern sector."
+    },
+    {
+      "unitId": "ger-6-inf",
+      "name": "6th Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "6 Inf",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-centre-corps",
+      "x": 914.05,
+      "y": 586.75,
+      "influenceRadius": 150,
+      "description": "Infantry formation, Army Group Centre."
+    },
+    {
+      "unitId": "ger-3-panzer",
+      "name": "3rd Panzer Division",
+      "unitType": "ARMOURED",
+      "designation": "3 Pz",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-centre-corps",
+      "x": 883.15,
+      "y": 685.79,
+      "influenceRadius": 210,
+      "description": "Panzer formation in the central offensive."
+    },
+    {
+      "unitId": "ger-17-inf",
+      "name": "17th Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "17 Inf",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-centre-corps",
+      "x": 829.75,
+      "y": 880.83,
+      "influenceRadius": 150,
+      "description": "German infantry formation."
+    },
+    {
+      "unitId": "ger-4-panzer",
+      "name": "4th Panzer Division",
+      "unitType": "ARMOURED",
+      "designation": "4 Pz",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-centre-corps",
+      "x": 876.14,
+      "y": 775.26,
+      "influenceRadius": 210,
+      "description": "Panzer formation advancing in the central sector."
+    },
+    {
+      "unitId": "ger-9-panzer",
+      "name": "9th Panzer Division",
+      "unitType": "ARMOURED",
+      "designation": "9 Pz",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-south-corps",
+      "x": 1125.8,
+      "y": 1142.11,
+      "influenceRadius": 200,
+      "description": "Armoured formation, Army Group South."
+    },
+    {
+      "unitId": "ger-17-panzer",
+      "name": "17th Panzer Division",
+      "unitType": "ARMOURED",
+      "designation": "17 Pz",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-south-corps",
+      "x": 1343.27,
+      "y": 1353.96,
+      "influenceRadius": 200,
+      "description": "German armoured formation in the southern offensive."
+    },
+    {
+      "unitId": "ger-45-inf",
+      "name": "45th Infantry Division",
+      "unitType": "INFANTRY",
+      "designation": "45 Inf",
+      "teamId": "germany",
+      "color": null,
+      "parentFormationId": "ger-south-corps",
+      "x": 1359.57,
+      "y": 1273.85,
+      "influenceRadius": 150,
+      "description": "Infantry formation in the southern sector."
+    },
+    {
+      "unitId": "sov-8-rifle",
+      "name": "8th Rifle Division",
+      "unitType": "INFANTRY",
+      "designation": "8 Rif",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-north-corps",
+      "x": 1025.78,
+      "y": 144.94,
+      "influenceRadius": 150,
+      "description": "Soviet Northwestern Front."
+    },
+    {
+      "unitId": "sov-3-tank",
+      "name": "3rd Tank Division",
+      "unitType": "ARMOURED",
+      "designation": "3 Tk",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-north-corps",
+      "x": 998.69,
+      "y": 277.9,
+      "influenceRadius": 200,
+      "description": "Soviet armoured formation."
+    },
+    {
+      "unitId": "sov-22-rifle",
+      "name": "22nd Rifle Division",
+      "unitType": "INFANTRY",
+      "designation": "22 Rif",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-north-corps",
+      "x": 1068.59,
+      "y": 330.94,
+      "influenceRadius": 150,
+      "description": "Soviet defensive formation."
+    },
+    {
+      "unitId": "sov-4-rifle",
+      "name": "4th Rifle Division",
+      "unitType": "INFANTRY",
+      "designation": "4 Rif",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-centre-corps",
+      "x": 979.43,
+      "y": 644.73,
+      "influenceRadius": 150,
+      "description": "Western Front defensive formation."
+    },
+    {
+      "unitId": "sov-6-mech",
+      "name": "6th Mechanised Corps",
+      "unitType": "ARMOURED",
+      "designation": "6 Mech",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-centre-corps",
+      "x": 1016.89,
+      "y": 719.79,
+      "influenceRadius": 210,
+      "description": "Soviet mechanised formation."
+    },
+    {
+      "unitId": "sov-10-rifle",
+      "name": "10th Rifle Division",
+      "unitType": "INFANTRY",
+      "designation": "10 Rif",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-centre-corps",
+      "x": 990.58,
+      "y": 788.94,
+      "influenceRadius": 150,
+      "description": "Western Front defensive formation."
+    },
+    {
+      "unitId": "sov-5-rifle",
+      "name": "5th Rifle Division",
+      "unitType": "INFANTRY",
+      "designation": "5 Rif",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-south-corps",
+      "x": 1129.52,
+      "y": 944.31,
+      "influenceRadius": 150,
+      "description": "Southwestern Front defensive formation."
+    },
+    {
+      "unitId": "sov-4-tank",
+      "name": "4th Tank Division",
+      "unitType": "ARMOURED",
+      "designation": "4 Tk",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-south-corps",
+      "x": 1276.75,
+      "y": 1014.45,
+      "influenceRadius": 200,
+      "description": "Soviet tank formation in the southern sector."
+    },
+    {
+      "unitId": "sov-41-rifle",
+      "name": "41st Rifle Division",
+      "unitType": "INFANTRY",
+      "designation": "41 Rif",
+      "teamId": "soviet",
+      "color": null,
+      "parentFormationId": "sov-south-corps",
+      "x": 1523.38,
+      "y": 1313.33,
+      "influenceRadius": 150,
+      "description": "Southwestern Front defensive formation."
+    }
+  ],
+  "formations": [
+    {
+      "formationId": "ger-theatre",
+      "name": "Oberkommando des Heeres",
+      "formationType": "THEATRE_HQ",
+      "teamId": "germany",
+      "parentFormationId": null,
+      "description": "German Army High Command.",
+      "x": 155.47,
+      "y": 710.52
+    },
+    {
+      "formationId": "ger-north",
+      "name": "Army Group North",
+      "formationType": "ARMY_GROUP_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-theatre",
+      "description": "Field Marshal Wilhelm Ritter von Leeb.",
+      "x": 430.87,
+      "y": 319.18
+    },
+    {
+      "formationId": "ger-centre",
+      "name": "Army Group Centre",
+      "formationType": "ARMY_GROUP_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-theatre",
+      "description": "Field Marshal Fedor von Bock.",
+      "x": 416.22,
+      "y": 729.59
+    },
+    {
+      "formationId": "ger-south",
+      "name": "Army Group South",
+      "formationType": "ARMY_GROUP_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-theatre",
+      "description": "Field Marshal Gerd von Rundstedt.",
+      "x": 982.85,
+      "y": 1183.86
+    },
+    {
+      "formationId": "ger-north-army",
+      "name": "16th Army",
+      "formationType": "ARMY_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-north",
+      "description": "Northern German field army.",
+      "x": 612.63,
+      "y": 354.12
+    },
+    {
+      "formationId": "ger-north-corps",
+      "name": "XLI Panzer Corps",
+      "formationType": "CORPS_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-north-army",
+      "description": "Northern armoured corps.",
+      "x": 776.77,
+      "y": 293.97
+    },
+    {
+      "formationId": "ger-centre-army",
+      "name": "4th Army",
+      "formationType": "ARMY_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-centre",
+      "description": "German field army in the central sector.",
+      "x": 601.79,
+      "y": 744.89
+    },
+    {
+      "formationId": "ger-centre-corps",
+      "name": "XXIV Panzer Corps",
+      "formationType": "CORPS_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-centre-army",
+      "description": "Central armoured corps.",
+      "x": 781.6,
+      "y": 742.64
+    },
+    {
+      "formationId": "ger-south-army",
+      "name": "6th Army",
+      "formationType": "ARMY_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-south",
+      "description": "German field army in the southern sector.",
+      "x": 1122.56,
+      "y": 1303.02
+    },
+    {
+      "formationId": "ger-south-corps",
+      "name": "III Panzer Corps",
+      "formationType": "CORPS_HQ",
+      "teamId": "germany",
+      "parentFormationId": "ger-south-army",
+      "description": "Southern armoured corps.",
+      "x": 1226.42,
+      "y": 1264.52
+    },
+    {
+      "formationId": "sov-theatre",
+      "name": "Stavka",
+      "formationType": "THEATRE_HQ",
+      "teamId": "soviet",
+      "parentFormationId": null,
+      "description": "Soviet Supreme High Command.",
+      "x": 1699.86,
+      "y": 560.12
+    },
+    {
+      "formationId": "sov-north",
+      "name": "Northwestern Front",
+      "formationType": "ARMY_GROUP_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-theatre",
+      "description": "Commander: Fyodor Kuznetsov.",
+      "x": 1650,
+      "y": 250
+    },
+    {
+      "formationId": "sov-centre",
+      "name": "Western Front",
+      "formationType": "ARMY_GROUP_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-theatre",
+      "description": "Commander: Dmitry Pavlov.",
+      "x": 1428.57,
+      "y": 688.35
+    },
+    {
+      "formationId": "sov-south",
+      "name": "Southwestern Front",
+      "formationType": "ARMY_GROUP_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-theatre",
+      "description": "Commander: Mikhail Kirponos.",
+      "x": 1772.25,
+      "y": 1024.35
+    },
+    {
+      "formationId": "sov-north-army",
+      "name": "8th Army",
+      "formationType": "ARMY_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-north",
+      "description": "Soviet northern field army.",
+      "x": 1377.4,
+      "y": 287.82
+    },
+    {
+      "formationId": "sov-north-corps",
+      "name": "12th Rifle Corps",
+      "formationType": "CORPS_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-north-army",
+      "description": "Northwestern Front corps.",
+      "x": 1170.1,
+      "y": 241.07
+    },
+    {
+      "formationId": "sov-centre-army",
+      "name": "10th Army",
+      "formationType": "ARMY_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-centre",
+      "description": "Soviet central field army.",
+      "x": 1297.07,
+      "y": 707.64
+    },
+    {
+      "formationId": "sov-centre-corps",
+      "name": "6th Mechanised Corps",
+      "formationType": "CORPS_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-centre-army",
+      "description": "Central mechanised corps.",
+      "x": 1116.69,
+      "y": 715.5
+    },
+    {
+      "formationId": "sov-south-army",
+      "name": "5th Army",
+      "formationType": "ARMY_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-south",
+      "description": "Soviet southern field army.",
+      "x": 1575.74,
+      "y": 939.89
+    },
+    {
+      "formationId": "sov-south-corps",
+      "name": "4th Mechanised Corps",
+      "formationType": "CORPS_HQ",
+      "teamId": "soviet",
+      "parentFormationId": "sov-south-army",
+      "description": "Southwestern Front mechanised corps.",
+      "x": 1368.53,
+      "y": 937.73
+    }
+  ],
+  "territories": [],
+  "drawings": [
+    {
+      "points": [
+        {
+          "x": 950,
+          "y": 100
+        },
+        {
+          "x": 1000,
+          "y": 250
+        },
+        {
+          "x": 1050,
+          "y": 420
+        }
+      ],
+      "drawingId": "draw-north-front",
+      "drawingType": "BOUNDARY",
+      "color": "#ffffff",
+      "strokeWidth": 4,
+      "text": null,
+      "description": "Northern front sector"
+    },
+    {
+      "points": [
+        {
+          "x": 1000,
+          "y": 420
+        },
+        {
+          "x": 1030,
+          "y": 650
+        },
+        {
+          "x": 1050,
+          "y": 850
+        }
+      ],
+      "drawingId": "draw-centre-front",
+      "drawingType": "BOUNDARY",
+      "color": "#ffffff",
+      "strokeWidth": 4,
+      "text": null,
+      "description": "Central front sector"
+    },
+    {
+      "points": [
+        {
+          "x": 1050,
+          "y": 850
+        },
+        {
+          "x": 1050,
+          "y": 1100
+        },
+        {
+          "x": 1100,
+          "y": 1300
+        }
+      ],
+      "drawingId": "draw-south-front",
+      "drawingType": "BOUNDARY",
+      "color": "#ffffff",
+      "strokeWidth": 4,
+      "text": null,
+      "description": "Southern front sector"
+    },
+    {
+      "drawingId": "draw-zb78xvcyxv",
+      "drawingType": "ARROW",
+      "points": [
+        {
+          "x": 1414.35,
+          "y": 1328.68
+        },
+        {
+          "x": 1654.19,
+          "y": 1170.34
+        }
+      ],
+      "color": "#3c5c86",
+      "strokeWidth": 11,
+      "text": null,
+      "description": "Southern Attack"
+    },
+    {
+      "drawingId": "draw-0ecg8rs29o",
+      "drawingType": "ARROW",
+      "points": [
+        {
+          "x": 861.94,
+          "y": 182.46
+        },
+        {
+          "x": 970.16,
+          "y": 149.89
+        }
+      ],
+      "color": "#324c9a",
+      "strokeWidth": 8,
+      "text": null,
+      "description": "Flank Attack"
+    },
+    {
+      "drawingId": "draw-0qebe1440l",
+      "drawingType": "ARROW",
+      "points": [
+        {
+          "x": 875.12,
+          "y": 727.45
+        },
+        {
+          "x": 965.32,
+          "y": 720.03
+        }
+      ],
+      "color": "#ffffff",
+      "strokeWidth": 4,
+      "text": null,
+      "description": ""
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "createdAt": "2026-11-13T00:00:00Z",
+    "lastModified": "2026-11-13T18:23:44.420Z"
+  }
+}
